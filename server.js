@@ -106,7 +106,7 @@ app.post("/delete", function (req, res){
 
 
 
-connectDB().then(function()){
+connectDB().then(function(){
   app.listen(PORT,function(){
     console.log("Server running on port 3000!");
   })
